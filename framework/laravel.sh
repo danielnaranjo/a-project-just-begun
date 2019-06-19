@@ -1,11 +1,12 @@
-# Name
-PROJECT = $1 (ex. my-awesome-blog)
+#!/bin/sh
+# Name (ex. my-awesome-blog)
+PROJECT="$1" 
 # Check requires
-which php && which composer && which node && which npm && node -v; npm -v;
+php -v;composer -v;node -v;npm -v
 # Composer is required
-composer create-project --prefer-dist laravel/laravel $PROJECT
-# Get into folder
-cd $PROJECT (ex. /my-awesome-blog/)
+composer create-project --prefer-dist laravel/laravel "$PROJECT"
+# Get into folder(ex. /my-awesome-blog/)
+cd "$PROJECT" || exit
 # Create APP KEY
 php artisan key:generate
 # Install dependencies
