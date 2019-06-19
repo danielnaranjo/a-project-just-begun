@@ -11,6 +11,8 @@ cd "$PROJECT" || exit
 php artisan key:generate
 # Install dependencies
 composer update
+# Tuning Laravel's installation
+composer require algolia/algoliasearch-client-php barryvdh/laravel-cors jenssegers/date kris/laravel-form-builder laravel/scout laravel/socialite laravelcollective/html nesbot/carbon pusher/pusher-php-server sentry/sentry-laravel webpatser/laravel-uuid 
 # Install Node
 npm install
 # Run server
