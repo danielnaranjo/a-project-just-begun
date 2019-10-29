@@ -12,3 +12,7 @@ git clone https://github.com/danielnaranjo/a-project-just-begun.git
 * [Ionic Framework 3.x](https://github.com/danielnaranjo/a-project-just-begun/framework/ionic.sh) //TODO  
 * [Angular 1.x](https://github.com/danielnaranjo/a-project-just-begun/framework/angularjs.sh) //TODO  
 * [Angular 2+](https://github.com/danielnaranjo/a-project-just-begun/framework/angular.sh) //TODO  
+
+
+### Feel free to say Hello!
+Twitter: [@naranjodaniel](https://twitter.com/naranjodaniel) or [buy me a coffee](https://www.buymeacoffee.com/danielnaranjo)
